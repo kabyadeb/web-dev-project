@@ -1,3 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
-    background-color: rgb(85, 223, 223);
+    background-color: rgb(199, 168, 202);
+}
+.Projecthead{
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 8vh;
+}
+.navlinks a{
+    font-size: 1.5rem;
+    margin-left: 10px;
 }
