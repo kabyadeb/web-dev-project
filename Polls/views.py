@@ -4,7 +4,7 @@ from django.shortcuts import render
 from django.http import HttpResponse
 
 def Home(request):
-    return HttpResponse("hello , prithibi.You're amazing ")
+    return render(request,'intro.html')
 
 def aboutMe(request):
     return HttpResponse("this is about")
